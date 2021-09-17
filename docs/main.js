@@ -16,6 +16,3 @@ console.log(window.innerHeight + document.querySelector('.para').getBoundingClie
 window.addEventListener('scroll', () => {
     paraBeforeCSS.style.height = `${(document.querySelector('.para').offsetHeight - document.querySelector('.para').getBoundingClientRect().y) / 2}px`;
 });
-
-let styles = [paraBeforeCSS, paraAfterCSS];
-console.log(styles);
