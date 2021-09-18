@@ -2,27 +2,11 @@ html, body {
     margin:0;
     background-color: black;
 }
-
-img{
-    display: block;
-    width:100%;
-    height:100%;
-    object-fit: cover;
+body {
+    padding:10rem 0;
 }
-.para {
-    width: 500px;
-    height: 100vh;
-    margin:2rem auto;
-    position: relative;
-    isolation: isolate;
-    perspective: 100px;
-    background-color: indianred;
-    overflow: hidden;
+.parallax {
+    width: 600px;
+    height: 600px;
+    margin: 20vh auto;
 }
-    .para::before {
-        content:'';
-        width:100%;
-        height:10px;
-        background-color:darkgrey;
-        position: absolute;
-    }
